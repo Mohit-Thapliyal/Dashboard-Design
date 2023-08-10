@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  /* height: 100%; */
+  background-color: #F0F4F9;
+}
+.custom-header{
+  background-color: white;
+}
+
+/* Remove borders from cells and headers */
+.ag-theme-alpine .ag-cell,
+.ag-theme-alpine .ag-header-cell {
+  border: none;
+}
+/* Remove borders from row containers */
+.ag-theme-alpine .ag-row {
+  border: none;
+}
+
+/* Remove the outer border from the grid container */
+.ag-theme-alpine .ag-root-wrapper {
+  border: none;
+}
